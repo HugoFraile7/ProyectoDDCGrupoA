@@ -42,8 +42,7 @@ Amazon(https://www-scraperapi-com.translate.goog/blog/amazon-web-scraping-policy
         15      screen_size (Inches) (tamaño de pantalla en pulgadas): Tamaño de la pantalla en pulgadas (número decimal).
         16      cellular_technology (tecnología celular): Lista de tecnologías celulares compatibles (cadena de texto).
         17      model_name (nombre del modelo): Nombre o serie del modelo del producto (cadena de texto).
-        18      cpu_model (modelo del procesador): Modelo específico del procesador
-(cadena de texto).
+        18      cpu_model (modelo del procesador): Modelo específico del procesador (cadena de texto).
         19      available_colors (colores disponibles): Lista de colores disponibles para el producto (cadena de texto).
         20      review (reseña): Comentarios o reseñas de los clientes sobre el producto (cadena de texto).
         21      timestamp (marca de tiempo): Fecha de la reseña (cadena de texto).
