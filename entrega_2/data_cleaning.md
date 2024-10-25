@@ -1,4 +1,5 @@
-# Descripción de los métodos utilizados para la limpieza de datos estructurados (archivo: limpieza_estructurados)
+# Preprocesado de datos
+## Descripción de los métodos utilizados para la limpieza de datos estructurados (archivo: limpieza_estructurados)
 
 ## Carga y eliminación de duplicados:
 - **Método**: Utilizamos **df.drop_duplicates()** para eliminar registros duplicados en el conjunto de datos.
@@ -25,7 +26,7 @@ Método: Excluir ciertos valores de model_name usando **df[~df['model_name'].isi
 - **Justificación**: Algunos modelos son irrelevantes para el análisis actual; se excluyen para mantener el enfoque en los datos importantes.
 
 
-# Descripción de los métodos utilizados para la limpieza de datos no estructurados (archivo: tratamiento datos no estructurados)
+## Descripción de los métodos utilizados para la limpieza de datos no estructurados (archivo: tratamiento datos no estructurados)
 
 ## Detección de idioma:
 - **Método**: Se utiliza la biblioteca **langdetect** para identificar el idioma en el que está escrito cada comentario. La función **detect_language()** intenta detectar el idioma de la reseña, y si no puede hacerlo, retorna **None**. Esta función se aplica a la columna **'review'** del DataFrame con **df['review'].apply(detect_language)**.
@@ -49,10 +50,9 @@ Método: Excluir ciertos valores de model_name usando **df[~df['model_name'].isi
 
 ## Eliminación de stopwords:
 - **Método**: Se descargan las **stopwords** en inglés con **nltk.download('stopwords')**, y luego se crea un conjunto de estas palabras utilizando **set(nltk.corpus.stopwords.words('english'))**. A continuación, se eliminan las stopwords de los tokens en la columna **'tk_review'** mediante una función lambda que filtra las palabras que no están en el conjunto de **stopwords**.
-
 - **Justificación**: Las **stopwords** son palabras comunes (como "the", "is", "and") que generalmente no aportan significado relevante en el análisis de texto. Eliminarlas reduce el ruido en los datos, mejora la precisión en tareas de procesamiento de lenguaje natural y ayuda a enfocarse en términos más significativos para el análisis.
 
-# Descripción de los métodos utilizados para la limpieza de los datos de tipo fecha
+## Descripción de los métodos utilizados para la limpieza de los datos de tipo fecha
 
 ## Conversión en nanosegundos:
 - **Método**: Se crea una nueva columna llamada **'timestamp_nanosec'**, que contiene la representación en nanosegundos del **'timestamp'** mediante **data['timestamp'].astype('int64')**.
