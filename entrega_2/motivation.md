@@ -7,7 +7,9 @@ Preguntas de Investigación o Hipótesis
 Las preguntas de investigación e hipótesis clave que este proyecto pretende explorar son:
 
 1- ¿Existe una tendencia en las opiniones de los usuarios que se vuelva más negativa a medida que transcurre el tiempo desde el lanzamiento de un dispositivo de Apple?
+
 2- ¿Cómo varía el sentimiento general de las reseñas a lo largo del ciclo de vida de un dispositivo?
+
 3- ¿Se observan cambios en la valoración de las características específicas (como batería, calidad de cámara, etc.) que podrían ser indicativos de obsolescencia percibida?
 Estas preguntas tienen como fin identificar patrones que puedan indicar una "obsolescencia psicológica", donde los usuarios se sientan menos satisfechos con el tiempo, aunque el dispositivo siga siendo funcional.
 
@@ -16,7 +18,9 @@ Justificación de los Datos Seleccionados
 Para abordar estas preguntas, seleccionamos dos conjuntos de datos principales:
 
 1- Reviews de Amazon: Contienen opiniones de usuarios que han comprado y usado los dispositivos Apple, reflejando la experiencia real y la percepción subjetiva de los consumidores. La cantidad y variabilidad de estas reseñas permiten analizar el sentimiento en torno a los dispositivos a lo largo de su vida en el mercado.
+
 2- Dataset de dispositivos móviles (CSV): Este conjunto de datos contiene información estructurada sobre cada modelo de dispositivo Apple (fechas de lanzamiento, especificaciones, etc.). Esto permite relacionar cada review con la fecha de salida del dispositivo correspondiente, lo cual es esencial para analizar la evolución del sentimiento en función del tiempo desde el lanzamiento.
+
 Estos datos específicos son relevantes y necesarios para responder nuestras preguntas de investigación, ya que brindan la base sobre la cual medir los cambios en las reseñas de usuarios desde una perspectiva longitudinal.
 
 Desafíos Potenciales con los Datos Limpiados
