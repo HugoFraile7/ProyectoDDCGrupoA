@@ -1,8 +1,8 @@
-Objetivo General del Proyecto
+-- Objetivo General del Proyecto --
 
 El objetivo de este proyecto es analizar la evolución de la percepción de los usuarios sobre dispositivos móviles de la marca Apple en Amazon, a lo largo del tiempo, mediante el uso de análisis de sentimiento en sus reseñas. A través de la extracción y procesamiento de las reviews de Amazon y datos de lanzamiento de los dispositivos, se busca identificar si las opiniones de los usuarios tienden a volverse más negativas conforme pasa el tiempo desde la salida del dispositivo, evaluando si existe una correlación entre el paso del tiempo y la disminución de la satisfacción.
 
-Preguntas de Investigación o Hipótesis
+-- Preguntas de Investigación o Hipótesis --
 
 Las preguntas de investigación e hipótesis clave que este proyecto pretende explorar son:
 
@@ -13,7 +13,7 @@ Las preguntas de investigación e hipótesis clave que este proyecto pretende ex
 3- ¿Se observan cambios en la valoración de las características específicas (como batería, calidad de cámara, etc.) que podrían ser indicativos de obsolescencia percibida?
 Estas preguntas tienen como fin identificar patrones que puedan indicar una "obsolescencia psicológica", donde los usuarios se sientan menos satisfechos con el tiempo, aunque el dispositivo siga siendo funcional.
 
-Justificación de los Datos Seleccionados
+-- Justificación de los Datos Seleccionados --
 
 Para abordar estas preguntas, seleccionamos dos conjuntos de datos principales:
 
@@ -23,7 +23,7 @@ Para abordar estas preguntas, seleccionamos dos conjuntos de datos principales:
 
 Estos datos específicos son relevantes y necesarios para responder nuestras preguntas de investigación, ya que brindan la base sobre la cual medir los cambios en las reseñas de usuarios desde una perspectiva longitudinal.
 
-Desafíos Potenciales con los Datos Limpiados
+-- Desafíos Potenciales con los Datos Limpiados --
 
 1- Duplicación de Datos: Durante el proceso de scrapping, se generaron duplicados de reviews que sesgan los resultados hacia las fechas más recientes, creando una concentración artificial de datos. Este problema puede introducir un sesgo temporal en el análisis de sentimiento, haciéndolo parecer más reciente de lo que realmente es.
 
