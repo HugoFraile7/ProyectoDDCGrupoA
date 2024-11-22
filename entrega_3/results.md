@@ -31,3 +31,36 @@ El mejor modelo *SARMA* encontrado tiene las siguientes características:
 
 A pesar de ser el mejor modelo SARMA, sus resultados son inferiores al modelo ARMA previamente seleccionado, que obtuvo un *MAE* de 0.365 en el conjunto de test.
 ![Predicción Sarma](Sarma.png)
+
+
+## Frecuencia de Palabras Clave a lo Largo del Tiempo
+![Frecuencia de Palabras Clave](1.png)
+
+- **Descripción**: Este gráfico muestra cómo evoluciona la frecuencia de palabras clave específicas a lo largo del tiempo. Se incluyen términos como "phone", "battery", "amazon", entre otros.
+- **Análisis**:
+  - La palabra "phone" domina en frecuencia, especialmente al inicio del periodo analizado.
+  - La mayoría de las palabras muestran una disminución en su frecuencia con el tiempo, lo que podría reflejar cambios en la relevancia de los temas asociados.
+  - Picos esporádicos en palabras como "iphone" y "screen" pueden indicar eventos específicos o lanzamientos relevantes.
+
+---
+
+## Distribución de Tópicos en el Tiempo
+![Distribución de Tópicos](2.png)
+
+- **Descripción**: Este gráfico muestra cómo varía la proporción de tópicos identificados a lo largo del tiempo, basado en análisis de temas con técnicas de modelado de tópicos.
+- **Análisis**:
+  - Los tópicos presentan comportamientos cíclicos, sugiriendo que ciertos temas ganan y pierden relevancia en períodos específicos.
+  - Tópicos como el "Tópico 1" tienen un comportamiento más estable, mientras que otros como el "Tópico 3" muestran picos pronunciados, lo que podría estar relacionado con eventos puntuales.
+
+---
+
+## Palabras Más Frecuentes
+![Palabras Más Frecuentes](3.png)
+
+- **Descripción**: Este gráfico de barras resalta las palabras más frecuentes en el conjunto de datos textuales analizados.
+- **Análisis**:
+  - La palabra "phone" es significativamente más frecuente que las demás, indicando su alta relevancia en el conjunto de datos.
+  - Términos como "battery", "iphone" y "amazon" reflejan la naturaleza tecnológica de los textos analizados.
+  - Este análisis es un paso inicial hacia la comprensión de los temas predominantes en el corpus.
+
+---
