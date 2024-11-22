@@ -51,6 +51,36 @@ A pesar de ser el mejor modelo SARMA, sus resultados son inferiores al modelo AR
 - **Análisis**:
   - Los tópicos presentan comportamientos cíclicos, sugiriendo que ciertos temas ganan y pierden relevancia en períodos específicos.
   - Tópicos como el "Tópico 1" tienen un comportamiento más estable, mientras que otros como el "Tópico 3" muestran picos pronunciados, lo que podría estar relacionado con eventos puntuales.
+ 
+---
+# Análisis de Tópicos
+
+## Tópicos Identificados
+El análisis de modelado de tópicos permitió identificar cinco conjuntos representativos de términos recurrentes en el corpus:
+
+### Tópico 0
+- **Palabras clave**: ['phone', 'iphone', 'battery', 'read', 'new', 'apple', 'amazon', 'pro', 'great', 'max']
+- **Enfoque**: Discusiones sobre dispositivos tecnológicos y modelos avanzados.
+
+### Tópico 1
+- **Palabras clave**: ['phone', 'read', 'battery', 'scratch', 'new', 'condition', 'seller', 'iphone', 'screen', 'brand']
+- **Enfoque**: Calidad del producto y experiencia con el vendedor.
+
+### Tópico 2
+- **Palabras clave**: ['phone', 'read', 'great', 'battery', 'good', 'came', 'condition', 'work', 'new', 'screen']
+- **Enfoque**: Funcionamiento general y experiencia del producto.
+
+### Tópico 3
+- **Palabras clave**: ['phone', 'amazon', 'read', 'iphone', 'return', 'work', 'told', 'refund', 'took', 'apple']
+- **Enfoque**: Problemas postventa y devoluciones.
+
+### Tópico 4
+- **Palabras clave**: ['phone', 'iphone', 'like', 'screen', 'new', 'day', 'brand', 'money', 'read', 'buying']
+- **Enfoque**: Experiencia de compra y relación calidad-precio.
+
+
+
+
 
 ---
 
