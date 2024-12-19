@@ -27,7 +27,7 @@ Las preguntas de investigación planteadas inicialmente se centraban en dos hip�
 
 Con estos ejeplos podemos comprobar como decaen la frecuencia de los topics a lo largo del tiempo
 
-<image src="./Topics_over_Time" alt="Topics over Time">
+<image src="./Topics_over_Time.png" alt="Topics over Time">
 
 <image src="./1.png" alt="Predicción últimos 6 meses">
 
