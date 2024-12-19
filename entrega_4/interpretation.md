@@ -8,6 +8,10 @@ Además, el análisis de la serie temporal reveló que no existe estacionalidad 
 Respecto a la serie temporal, se planteó la hipótesis de que era posible predecir el rating del iPhone para el último mes con un Error Absoluto Medio (MAE) inferior a un umbral establecido. Los modelos implementados demostraron una alta precisión en las predicciones, validando esta hipótesis. La capacidad de predecir con exactitud los ratings futuros sugiere que los factores analizados tienen una influencia significativa y predecible en la satisfacción de los usuarios.
 
 
+
+
+
+
 # Relación con las Preguntas de Investigación
 
 
