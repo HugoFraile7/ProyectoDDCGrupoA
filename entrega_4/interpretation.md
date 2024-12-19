@@ -26,6 +26,8 @@ Las preguntas de investigación planteadas inicialmente se centraban en dos hip�
 # Ejemplos ilustrativos
 
 -En la primera gráfica se puede observar como decaen los topics según avanza el tiempo.
+
+
 -En la segunda gráfica se pueden observar las predicciones que realiza nuestro modelo para los últimos 6 meses.
 
 <image src="./Topics_over_Time.png" alt="Topics over Time">
