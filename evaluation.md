@@ -43,11 +43,6 @@ El MAE mide el error absoluto promedio y representa la precisión en la predicci
 **Interpretación**: El MAE de **0.3904** muestra que el modelo SARIMA tiene un desempeño ligeramente peor en comparación con el ARMA sobre los datos de prueba.
 
 ---
-
-## Conclusión
-
-En base a las métricas, el modelo **ARMA (\( p = 12 \))** parece ser más eficiente y preciso que el modelo **SARIMA** en términos de ajuste a los datos y precisión en las predicciones.
-
 ## Comparación de los modelos
 A pesar de que, al ver el seasonal descompose, creíamos que habría una cierta estacionalidad, bien cada 6 meses o bien cada 12, al probar el modelo todas las métricas son mejores para el modelo autorregresivo. Es decir, no merece la pena tratar la serie como estacional. En los valores AIC y BIC como además se penaliza la complejidad del modelo, el modelo con estacionalidad y un valor mayor de p, es decir, parámetros más complejos.
 Cabe recalcar que estos modelos han sido escogidos usando el criterio del MAE sobre el test (últimos 6 meses). Este criterio hace que los valores de p tiendan a ser más altos, sin embargo, hemos considerado que era mejor mirar el error únicamente y no penalizar demasiado la complejidad del modelo.
